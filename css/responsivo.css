@@ -5,6 +5,10 @@
     background-position: top left, bottom right;
   }
 
+  main.container-geral {
+    margin: 3rem;
+  }
+
   div.cima-geral-content,
   section.baixo-geral {
     flex-direction: column;
