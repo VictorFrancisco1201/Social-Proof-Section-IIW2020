@@ -62,20 +62,21 @@ section.baixo-geral {
 
 .cima-esquerda h1 {
   color: var(--Very-Dark-Magenta);
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
 }
 
 .cima-esquerda p {
-  font-weight: 500;
-  line-height: 1.4;
+  font-weight: 600;
+  line-height: 2rem;
   color: var(--Dark-Grayish-Magenta);
+  font-size: 1.4rem;
 }
 
 .avaliacoes-geral {
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,6 +110,7 @@ section.baixo-geral {
 span {
   font-weight: 700;
   color: var(--Very-Dark-Magenta);
+  font-size: 1.3rem;
 }
 
 /* Posicionando os Cards */
@@ -119,7 +121,7 @@ section.baixo-geral {
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 div.perfil {
@@ -151,6 +153,10 @@ div.perfil-content>img {
   color: var(--Soft-Pink);
 }
 
+div.perfil {
+  padding: 3rem 3rem;
+}
+
 div.perfil .perfil-content {
   display: flex;
   flex-direction: row;
@@ -163,8 +169,7 @@ div.perfil .descricao {
 
 .informacao>p,
 .descricao>p {
-  font-size: 0.9rem;
-  font-weight: 400;
+  font-size: 1.14rem;
   line-height: 1.5;
 }
 

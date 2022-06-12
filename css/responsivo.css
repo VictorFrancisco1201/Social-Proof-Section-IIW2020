@@ -13,9 +13,34 @@
     font-size: 2.5rem;
   }
 
+  .cima-esquerda p {
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+
+  div.perfil {
+    padding: 3rem 1rem;
+  }
+
+  .descricao>p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: inherit;
+  }
+
   div.cima-geral-content,
   section.baixo-geral {
     flex-direction: column;
+  }
+
+  div.cima-geral-content {
+    margin-bottom: 1rem;
   }
 
   div.cima-geral-content .cima-esquerda {
@@ -26,6 +51,7 @@
   }
 
   .avaliacoes-geral {
+    width: 100%;
     padding-right: 0;
   }
 
@@ -34,5 +60,15 @@
   .avaliacao3 {
     margin: .5rem auto;
     flex-direction: column;
+  }
+
+
+  section.baixo-geral {
+    margin-top: 0rem;
+    gap: 0;
+  }
+
+  .perfil.AnneWallace {
+    margin-top: 1rem;
   }
 }
