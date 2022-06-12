@@ -9,6 +9,10 @@
     margin: 3rem;
   }
 
+  .cima-esquerda h1 {
+    font-size: 2.5rem;
+  }
+
   div.cima-geral-content,
   section.baixo-geral {
     flex-direction: column;
