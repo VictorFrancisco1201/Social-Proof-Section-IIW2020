@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
 
 :root {
   --Very-Dark-Magenta: hsl(300, 43%, 22%);
@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: "Spartan", sans-serif;
+  font-family: 'League Spartan', sans-serif;
 
   width: 100%;
   min-height: 100vh;
@@ -60,15 +60,16 @@ section.baixo-geral {
   padding-right: 5rem;
 }
 
-.cima-esquerda h2 {
+.cima-esquerda h1 {
   color: var(--Very-Dark-Magenta);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 
 .cima-esquerda p {
+  font-weight: 500;
   line-height: 1.4;
   color: var(--Dark-Grayish-Magenta);
 }
@@ -89,11 +90,12 @@ section.baixo-geral {
   padding: 1rem 2rem;
   border-radius: .5rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   flex-direction: row;
   gap: 1rem;
   margin-top: 1rem;
-  width: 100%;
+  min-width: 100%;
 }
 
 .avaliacao2 {
@@ -105,7 +107,7 @@ section.baixo-geral {
 }
 
 span {
-  font-weight: bold;
+  font-weight: 700;
   color: var(--Very-Dark-Magenta);
 }
 
@@ -128,10 +130,16 @@ div.perfil {
   height: 100%;
 }
 
+div.perfil-content>div.informacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 div.perfil-content>img {
   border-radius: 50%;
-  max-width: 4rem;
-  max-height: 4rem;
+  max-width: 3rem;
+  max-height: 3rem;
 }
 
 .informacao>p:first-child {
@@ -156,7 +164,8 @@ div.perfil .descricao {
 .informacao>p,
 .descricao>p {
   font-size: 0.9rem;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .perfil.ColtonSmith {
