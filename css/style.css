@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Spartan", sans-serif;
+
+  width: 100%;
+  min-height: 100vh;
+
+  background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+}
+
+/* Configurações gerais dos conteúdos */
+
+main.container-geral {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  margin: 6rem;
+}
+
+div.cima-geral-content {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+  font-size: 1rem;
+}
+
+section.baixo-geral {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+/* Posicionando os elementos de cima */
+
+.cima-esquerda {
+  width: 50%;
+  padding-right: 5rem;
+}
+
+.cima-esquerda h2 {
+  color: var(--Very-Dark-Magenta);
+  font-weight: 700;
+  line-height: 1;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cima-esquerda p {
+  line-height: 1.4;
+  color: var(--Dark-Grayish-Magenta);
+}
+
+.avaliacoes-geral {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-right: 2rem;
+}
+
+.avaliacao1,
+.avaliacao2,
+.avaliacao3 {
+  background-color: var(--Light-Grayish-Magenta);
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.avaliacao2 {
+  margin-left: 2rem;
+}
+
+.avaliacao3 {
+  margin-left: 4rem;
+}
+
+span {
+  font-weight: bold;
+  color: var(--Very-Dark-Magenta);
+}
+
+/* Posicionando os Cards */
+
+section.baixo-geral {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+div.perfil {
+  background-color: var(--Very-Dark-Magenta);
+  padding: 2rem;
+  border-radius: .5rem;
+  color: #fff;
+  min-height: 100%;
+}
+
+div.perfil-content>img {
+  border-radius: 50%;
+  max-width: 4rem;
+  max-height: 4rem;
+}
+
+.informacao>p:first-child {
+  font-weight: 700;
+  color: #fff;
+}
+
+.informacao>p:nth-child(2) {
+  color: var(--Soft-Pink);
+}
+
+div.perfil .perfil-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+div.perfil .descricao {
+  margin-top: 1rem;
+}
+
+.informacao>p,
+.descricao>p {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.perfil.ColtonSmith {
+  margin-bottom: 2rem;
+}
+
+.perfilIreneRoberts {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.perfil.AnneWallace {
+  margin-top: 2rem;
+}

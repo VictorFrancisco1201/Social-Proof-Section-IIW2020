@@ -1,0 +1,28 @@
+@media(max-width: 769px) {
+  .container-geral div.cima-geral-content {
+    font-size: 0.9rem;
+  }
+
+  div.cima-esquerda>h2 {
+    font-size: 2rem;
+  }
+
+  .avaliacao1,
+  .avaliacao2,
+  .avaliacao3 {
+    margin: 0.5rem 0;
+  }
+
+  .stars-icon span {
+    display: block;
+    margin-left: 0;
+  }
+
+  .perfil {
+    padding: 1rem;
+  }
+
+  .perfil-content {
+    flex-direction: column;
+  }
+}
