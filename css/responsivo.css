@@ -71,4 +71,9 @@
   .perfil.AnneWallace {
     margin-top: 1rem;
   }
+
+  .credits {
+    width: 100%;
+    text-align: center;
+  }
 }
